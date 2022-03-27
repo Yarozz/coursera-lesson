@@ -4,9 +4,34 @@
 	<title>Coursera - 2022</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css">
+	<script src="script/work.js"></script>
 </head>
 <body>
-<h1 onclick="alert('Rabat')">GPS &nbsp;<span style="color:red">Fast</span>Food</h1>
+<h1 onclick="alert('Maroc')">GPS &nbsp;<span style="color:red">Fast</span>Food</h1>
+<div id="Rabat" class="tabcontent">
+  <h1>Rabat</h1>
+  <p>City</p>
+</div>
+
+<div id="Casablanca" class="tabcontent">
+  <h1>Casablanca</h1>
+  <p>City</p>
+</div>
+
+<div id="Marrakech" class="tabcontent">
+  <h1>Marrakech</h1>
+  <p>City</p>
+</div>
+
+<div id="Tangier" class="tabcontent">
+  <h1>Tangier</h1>
+  <p>City</p>
+</div>
+
+<button class="tablink" onclick="openCity('Rabat', this, 'red')" id="defaultOpen">Rabat</button>
+<button class="tablink" onclick="openCity('Casablanca', this, 'green')">Casablanca</button>
+<button class="tablink" onclick="openCity('Marrakech', this, 'blue')">Marrakech</button>
+<button class="tablink" onclick="openCity('Tangier', this, 'orange')">Tangier</button>    
 	<ol>
 	<li>
 	<a href="https://morocco.burgerking.me/en/menu.aspx" target="_blank">&quot;Burger King&quot;</a>	
